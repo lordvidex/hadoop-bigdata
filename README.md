@@ -1,14 +1,4 @@
-# Contents
-
-- [TASK 1](#task-1)
-      - [Login to datanode](#login-to-datanode)
-      - [Sending file from [local] to [container]](#sending-file-from-local-to-container)
-      - [Sending file from [container] to [hdfs]](#sending-file-from-container-to-hdfs)
-      - [Confirm in UI](#confirm-in-ui)
-  - [](#)
-- [Task 2](#task-2)
-
-# Task 1
+## Task 1
 Spinning up 3 datanodes and 1 namenode running hadoop fs
 #### Login to datanode
 ```sh
@@ -34,7 +24,7 @@ hdfs dfs -put ./people-1000000.csv /user/lordvidex/tests/
 
 --- 
 
-# Task 2
+## Task 2
 Running map-reduce in hadoop fs setup for large files
 > Some of the files can be gotten from open source repos like https://github.com/datablist/sample-csv-files
 #### From Task 1, file should be in hdfs
